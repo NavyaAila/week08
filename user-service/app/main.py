@@ -111,7 +111,7 @@ app = FastAPI(
         "Manages user accounts, authentication and "
         "role-based access for KoalaTech University."
     ),
-    version="1.0.0",
+    version="1.0.1",
     lifespan=lifespan,
 )
 
