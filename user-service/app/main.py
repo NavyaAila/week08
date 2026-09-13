@@ -111,7 +111,8 @@ app = FastAPI(
         "Manages user accounts, authentication and "
         "role-based access for KoalaTech University."
     ),
-    version="1.0.5",
+
+    version="1.0.4",
     lifespan=lifespan,
 )
 
@@ -139,3 +140,4 @@ def health_check() -> dict[str, str]:
         "status": "healthy",
         "service": "user-service",
     }
+
